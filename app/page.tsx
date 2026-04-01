@@ -13,6 +13,10 @@ export default function Page() {
           foilSrc="umbreonexfoil.webp"
           cardSrc="umbreonex.png"
         />
+        <SpecialIllustration
+          foilSrc="mewtwoexfoil.webp"
+          cardSrc="mewtwoex.png"
+        />
         <ReverseHolo foilSrc="tyrantrumfoil.webp" cardSrc="tyrantrum.png" />
       </div>
     </div>
