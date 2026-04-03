@@ -18,7 +18,7 @@ export function SpecialIllustration({
       {/* @ts-ignore */}
       <hover-tilt
         shadow
-        scale-factor={1.2}
+        scale-factor={1.1}
         glare-mask={`url(${foilSrc})`}
         glare-mask-mode="luminance"
         glare-intensity={3}
