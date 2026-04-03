@@ -1,6 +1,7 @@
 import { SpecialIllustration } from "@/components/SpecialIllustration"
 import { ReverseHolo } from "@/components/ReverseHolo"
 import { Standard } from "@/components/Standard"
+import { FullArtFoil } from "@/components/FullArtFoil"
 
 export default function Page() {
   return (
@@ -21,6 +22,7 @@ export default function Page() {
           foilSrc="mewtwoexfoil.webp"
           cardSrc="mewtwoex.png"
         />
+        <FullArtFoil foilSrc="cynthiafoil.webp" cardSrc="cynthia.png" />
         <ReverseHolo foilSrc="tyrantrumfoil.webp" cardSrc="tyrantrum.png" />
         <Standard cardSrc="garchomp.jpg" />
       </div>
