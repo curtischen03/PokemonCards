@@ -14,6 +14,10 @@ export default function Page() {
           cardSrc="clefairyex.webp"
         />
         <SpecialIllustration
+          foilSrc="garchompexfoil.webp"
+          cardSrc="garchompex.png"
+        />
+        <SpecialIllustration
           foilSrc="mewtwoexfoil.webp"
           cardSrc="mewtwoex.png"
         />
