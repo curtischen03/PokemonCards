@@ -20,7 +20,7 @@ export function SpecialIllustration({
         shadow
         scale-factor={1.1}
         glare-mask={`url(${foilSrc})`}
-        glare-mask-mode="luminance"
+        glare-mask-mode="alpha"
         glare-intensity={3}
         blend-mode="hard-light"
         class="sparkles [&::part(container)]:rounded-[4.55%/3.5%]"

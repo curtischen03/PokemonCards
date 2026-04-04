@@ -18,7 +18,7 @@ export function ReverseHolo({ foilSrc, cardSrc }: ReverseHoloProps) {
         shadow="true"
         scale-factor="1.1"
         glare-mask={`url(${foilSrc})`}
-        glare-mask-mode="luminance"
+        glare-mask-mode="alpha"
         glare-intensity={4}
         blend-mode="luminosity"
         className="[&::part(container)]:rounded-[4.55%/3.5%]"

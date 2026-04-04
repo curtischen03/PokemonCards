@@ -17,7 +17,7 @@ export function FullArtFoil({ foilSrc, cardSrc }: FullArtFoilProps) {
         shadow
         scale-factor={1.1}
         glare-mask={`url(${foilSrc})`}
-        glare-mask-mode="luminance"
+        glare-mask-mode="alpha"
         glare-intensity={1.2}
         blend-mode="hard-light"
         class="rainbow [&::part(container)]:rounded-[4.55%/3.5%]"
